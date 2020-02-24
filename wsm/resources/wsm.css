@@ -1,0 +1,11 @@
+#cuerpo{
+	background-image: url("bgteemo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+.contenedor{
+	background-color: #111;
+}

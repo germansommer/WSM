@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Who sucks more?</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src=".\resources\wsm.js"></script>
+
+	<link rel="stylesheet" type="text/css" href=".\resources\wsm.css">
+
+
+</head>
+<body id="cuerpo" class="d-flex">	
+	<div class="contenedor container-fluid text-white w-100 py-1 rounded position-fixed"> 
+		<img src=".\resources\IronBadgeS.png" class="img-fluid py-0">
+		<a id="titleh" class="ml-3 font-weight-bolder lead"> Compare Summoner Stats - Find out who sucks more </a>
+	</div>
+	<div class=" container-fluid d-flex ">
+		<div class="row d-flex align-items-center justify-content-around w-auto">
+			<div class="contenedor container-fluid col-md-auto mx-2 pl-4 py-2 pr-4 rounded d-flex ">
+				<form class="was-validated">
+				 	<div class="form-group my-2">
+				    	<label for="sname1" class="text-white font-weight-bold">Summoner 1:</label>
+				    	<input type="text" class="form-control w-auto" id="sname1" placeholder="Enter Summoner name" name="sname1" required>
+				    	<div class="valid-feedback">Valid.</div>
+				    	<div class="invalid-feedback">Please fill out this field.</div>
+				 	</div>
+				 	<div class="form-group my-2">
+				    	<label for="sname2" class="text-white font-weight-bold">Summoner 2:</label>
+				    	<input type="text" class="form-control w-auto" id="sname2" placeholder="Enter Summoner name" name="sname2" required>
+				    	<div class="valid-feedback">Valid.</div>
+				    	<div class="invalid-feedback">Please fill out this field.</div>
+				 	</div>
+			 		<div class="input-group mt-3 mb-3">
+ 	 					<div class="input-group-prepend">
+    						<label class="input-group-text" for="inputGroupSelect01">Server</label>
+  						</div>
+  						<select class="custom-select w-auto" id="inputGroupSelect01">
+						    <option value selected="1">LAS</option>
+						    <option value="2">LAN</option>
+  						</select>
+					</div>
+					<button id="select--button" class="btn-danger rounded w-100 px-4 py-2 mb-2 ">Compare</button>
+				</form>
+			</div>
+			<div class="container-fluid bg-dark col-md-4 mx-2">
+				<h1">   </h1>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+				
+	</script>
+</body>
+</html>
